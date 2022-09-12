@@ -1,0 +1,29 @@
+{
+    "name": "Dapponics Verifier",
+    "version": "1.0.0",
+    "description": "Get more info about Ethereum NFTs. Don't Trust, Verify!",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://dapponics.io/"],
+        "js": ["contentScript.js"]
+      }
+    ],
+    "action": {
+      "browser_style": true,
+      "default_icon": {
+        "16": "images/16px.png",
+        "24": "images/24px.png",
+        "32": "images/32px.png",
+        "48": "images/48px.png",
+        "64": "images/64px.png",
+        "128": "images/128px.png"
+      },
+      "default_title": "Dapponics Verifier",
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 3
+}

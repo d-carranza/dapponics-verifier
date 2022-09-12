@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.popup {
+  width: 232px;
+  background-color: #070014;
+  color: #fefefe;
+  font-family: "Bai Jamjuree";
+  font-size: 12px;
+}
+#content {
+  margin: 7px;
+}
+.data {
+  margin-bottom: 3px;
+}
+.key {
+  display: inline-block;
+  margin-right: 3px;
+}
+.value {
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+}
+#sns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+  margin-bottom: 7px;
+  margin-right: 5px;
+}
+.sns > a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+#address {
+  font-size: 9.2px;
+  font-size: 4vw;
+}
