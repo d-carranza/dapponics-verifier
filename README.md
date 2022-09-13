@@ -106,9 +106,7 @@ Etherscan: etherscan.asdfamasdfasd...
 
 To do that my extension needs to do the following steps:
 
-0. (while the token is not found then just display).
-
-contract not found
+0. (while the token is not found then just display) contract not found.
 
 1. Know the page I'm in and from the URL.
 https://opensea.io/assets/ethereum/_
@@ -307,7 +305,7 @@ Data can give an abnormal reading when using the extension out of its scope e.g.
 
 ### **Notes v6.5**
 
-######Bug Fixes:
+###### Bug Fixes:
 The server now detects the exact name of the SNS and sends always the right names for every case.
 In the client the function updateHTML() has now a big pool of social networks to handle diverse incoming data.
 Edge cases are covered now and the SNS displayed always work as expected.
