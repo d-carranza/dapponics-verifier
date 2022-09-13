@@ -12,7 +12,7 @@ With Dapponics Verifier you have now an extra layer of protection when you are g
 You can also use it any time you want to access to more information about your favourite NFTs.
 This extension works for every NFTs in the Ethereum blockchain and in every platform, such as opensea.io, looksrare.org, sudoswap.xyz, rarible.com, mintable.app, superrare.com, and so on.
 
-Dapponics Verifier extension is able to, with just one click, show the user the following data about the Ethereum NFT the user is watching:
+**Dapponics Verifier extension is able to, with just one click, show the user the following data about the Ethereum NFT the user is watching:**
 
 1. The name of the NFT colection.
 2. The token standard of thet collection.
@@ -28,7 +28,7 @@ Dapponics Verifier extension is able to, with just one click, show the user the 
 12. A clickable link to the Opensea page of the collection.
 13. The contract of the colection.
 
-Dapponics Verifier provides feedback to the user for every posible situation:
+**Dapponics Verifier provides feedback to the user for every posible situation:**
 
 1. If the extension couldn't find a contract on the URL, it shows _"Couldn't find any contract on this page"_.
 2. If the extension finds a contract in the URL, it shows _"Results are coming, wait for 10 seconds"_.
@@ -90,7 +90,6 @@ Lastly I need to make a good UX/UI givind some design and style to the extension
 
 I'm considering only specializing on NFTs, the idea is the following, when I'm in opensea, looksrare, sudoswap, universe or other marketplace, I want my extension to give me all this information about the NFT I'm watching.
 
-```
 Token tracker: CollectionName
 Total Supply: 10000
 Number of Holders: 4000 (40%)
@@ -104,15 +103,12 @@ Twitter: twitter.com/collection
 Discord: discord.com/collection
 Opensea: opensea.asdfasdfasdffasdf...
 Etherscan: etherscan.asdfamasdfasd...
-```
 
 To do that my extension needs to do the following steps:
 
 0. (while the token is not found then just display).
 
-```
 contract not found
-```
 
 1. Know the page I'm in and from the URL.
 https://opensea.io/assets/ethereum/_
