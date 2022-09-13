@@ -192,7 +192,7 @@ Also I'm going to make sure all the possible errors are handled properly through
 The data is a dict and I think it needs to be parsed as JSON.
 I wonder now where can I host the API to have a server always up available anytime to be called.
 
-###**Notes v4**
+### **Notes v4**
 
 ###### API fetch from background.js:
 Now background.js can call any api via async await fetch. I made a function called apiCall() that takes the contract as argument and returns the data received from the api (or an error message is fetching the api failed).
