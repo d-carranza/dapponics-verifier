@@ -1,6 +1,6 @@
 # Dapponics Verifier Google Chrome Extension
 
-#### Video Demo: <URL HERE>
+#### Video Demo: https://www.youtube.com/watch?v=1X1otn1_WWk
 
 #### Description: Google Chrome extension that verifies Ethereum NFT smart contracts
 
@@ -35,7 +35,7 @@ Dapponics Verifier provides feedback to the user for every posible situation:
 3. If the API request is unsuccessful because the server is down, it shows _"We found a problem, try again later"_.
 4. If the .json coming from the API is empty, it shows _"We found a problem, try again later"_.
 5. If the server receives a wrong request, it shows _"error: send a real contract"_
-6. If the data received contain unexpected values, it shows _"⚠️This contract is suspicious"_, meaning is a scam or not Ethereum.
+6. If the data received contain unexpected values, it shows _"⚠️This contract is suspicious \n If is an Ethereum NFT, might be a scam"_, meaning is a scam or not Ethereum.
 
 To gather all the data from every request I built my own dynamic API server:
 When the server receives a request, if the request is correct scans four _(4)_ diferent webpages.
@@ -44,7 +44,7 @@ By try and catching every action it gathers as much data pairs as possible in a 
 After filtering and cleaning the data sends it to the client as json.
 The total processing time takes around _8 seconds_.
 
-_*Development process (long reading)*_
+_**Development process (long reading)**_
 
 **Introduction:**
 
