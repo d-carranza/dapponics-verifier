@@ -162,7 +162,7 @@ After researching I found a library by Google called Puppeteer, I will need to u
 ###### Backend:
 Now I need to figure out how to use node, how to manage the backend and also where to host it later.
 
-###**Notes v2.5**
+### **Notes v2.5**
 
 ###### Design Changes:
 Web Scraping takes longer time than call an API, so it makes much more sense to start processing the logic whenever a new tab is opened instead of doing what I was doing, which is start the program when the extension is opened.
